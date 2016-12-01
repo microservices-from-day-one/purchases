@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cart_id: MyString
+  expires_at: 2016-01-03 11:21:50
+  items_count: 1
+  total: 1
+
+two:
+  cart_id: MyString
+  expires_at: 2016-01-03 11:21:50
+  items_count: 1
+  total: 1

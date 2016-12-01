@@ -1,0 +1,15 @@
+== compras
+
+This service is responsible for handling purchase related concerns.
+
+### API
+
+* POST   /carts
+  - takes nothing for now - will take a user_id in the future
+  - returns a Cart object - uuid, expires_on, items_count, total
+
+Create a new cart
+
+* GET    /carts/:cart_id
+* POST   /carts/:cart_id/items
+* DELETE /carts/:cart_id/items
